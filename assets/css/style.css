@@ -1,0 +1,41 @@
+.center{
+	text-align: center;
+}
+
+.title{
+	margin top: 20%;
+	color: white;
+	font-size: 100%;
+}
+body{
+
+	background-image: url(../images/archer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	
+}
+.whitefont{
+	color: white;
+}
+.choices{
+	width: 40%;
+}
+#startbtn{
+	padding: 6px 50px;
+    margin-bottom: 0;
+    font-size: 100%;
+    font-weight: 800;
+    line-height: 1;
+    border-radius: 20px;
+}
+#contentback{
+	background-color: rgba(84,84,80, 0.6);
+	padding: 10%;
+	margin: 10%;
+}
+
+
+#restart{
+	width: 50%;
+
+}
