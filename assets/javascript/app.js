@@ -86,7 +86,7 @@ $(document).ready(function(){
 	function compare(){
 		$(".btn").on("click", function(){
 			if($(this).data("choice") === trivia.questions[trivia.qnum].a){ 
-				$("#target").html("<h1>" + "You got the right answer!" + "</h1>");
+				$("#target").html("<h1>" + "Danger Zone, you're killin it!" + "</h1>");
 				setTimeout(nextquestion, 3000);
 				wins ++;
 				
@@ -110,7 +110,7 @@ $(document).ready(function(){
 	};
 
 	function restart(){
-		$("#target").append("<button id= 'restart'>" + "Restart" + "</button>");
+		$("#target").append("<button class='btn-danger' id= 'restart'>" + "Restart" + "</button>");
 		$("#restart").on("click", function(){
 			startgame();
 
